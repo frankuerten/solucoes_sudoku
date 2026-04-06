@@ -99,7 +99,7 @@ O algoritmo verifica se o sudoku fornecido tem 0, 1 ou várias soluções. Retor
             return "0 soluções"
 
         # Conta o número de soluções
-        num_solucoes = resolver_sudoku(tabuleiro)
+        num_solucoes = solucoes_sudoku(tabuleiro)
 
         if num_solucoes == 0:
             return "0 soluções"
