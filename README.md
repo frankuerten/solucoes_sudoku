@@ -2,6 +2,7 @@ Soluções_sudoku
 
 O algoritmo verifica se o sudoku fornecido tem 0, 1 ou várias soluções. Retorna: "0 soluções", "1 solução" ou "mais de uma solução".
 
+```python
 
     import copy
 
@@ -126,7 +127,7 @@ O algoritmo verifica se o sudoku fornecido tem 0, 1 ou várias soluções. Retor
         ]
         print("Quantidade de soluções:", verificar_sudoku(sudoku_modelo))
         
-
+```
 
 
 
